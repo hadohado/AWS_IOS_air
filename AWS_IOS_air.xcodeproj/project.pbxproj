@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B2C3D02264DBB710086BAC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C3D01264DBB710086BAC8 /* AppDelegate.swift */; };
+		7B2C3D04264DBB710086BAC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C3D03264DBB710086BAC8 /* SceneDelegate.swift */; };
+		7B2C3D07264DBB710086BAC8 /* AWS_IOS_air.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C3D05264DBB710086BAC8 /* AWS_IOS_air.xcdatamodeld */; };
+		7B2C3D09264DBB710086BAC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C3D08264DBB710086BAC8 /* ContentView.swift */; };
+		7B2C3D0B264DBB750086BAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C3D0A264DBB750086BAC8 /* Assets.xcassets */; };
+		7B2C3D0E264DBB750086BAC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C3D0D264DBB750086BAC8 /* Preview Assets.xcassets */; };
+		7B2C3D11264DBB750086BAC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C3D0F264DBB750086BAC8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B2C3CFE264DBB710086BAC8 /* AWS_IOS_air.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWS_IOS_air.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2C3D01264DBB710086BAC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B2C3D03264DBB710086BAC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7B2C3D06264DBB710086BAC8 /* AWS_IOS_air.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AWS_IOS_air.xcdatamodel; sourceTree = "<group>"; };
+		7B2C3D08264DBB710086BAC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B2C3D0A264DBB750086BAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B2C3D0D264DBB750086BAC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B2C3D10264DBB750086BAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B2C3D12264DBB750086BAC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B2C3CFB264DBB710086BAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B2C3CF5264DBB710086BAC8 = {
+			isa = PBXGroup;
+			children = (
+				7B2C3D00264DBB710086BAC8 /* AWS_IOS_air */,
+				7B2C3CFF264DBB710086BAC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B2C3CFF264DBB710086BAC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B2C3CFE264DBB710086BAC8 /* AWS_IOS_air.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B2C3D00264DBB710086BAC8 /* AWS_IOS_air */ = {
+			isa = PBXGroup;
+			children = (
+				7B2C3D01264DBB710086BAC8 /* AppDelegate.swift */,
+				7B2C3D03264DBB710086BAC8 /* SceneDelegate.swift */,
+				7B2C3D08264DBB710086BAC8 /* ContentView.swift */,
+				7B2C3D0A264DBB750086BAC8 /* Assets.xcassets */,
+				7B2C3D0F264DBB750086BAC8 /* LaunchScreen.storyboard */,
+				7B2C3D12264DBB750086BAC8 /* Info.plist */,
+				7B2C3D05264DBB710086BAC8 /* AWS_IOS_air.xcdatamodeld */,
+				7B2C3D0C264DBB750086BAC8 /* Preview Content */,
+			);
+			path = AWS_IOS_air;
+			sourceTree = "<group>";
+		};
+		7B2C3D0C264DBB750086BAC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B2C3D0D264DBB750086BAC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B2C3CFD264DBB710086BAC8 /* AWS_IOS_air */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B2C3D15264DBB750086BAC8 /* Build configuration list for PBXNativeTarget "AWS_IOS_air" */;
+			buildPhases = (
+				7B2C3CFA264DBB710086BAC8 /* Sources */,
+				7B2C3CFB264DBB710086BAC8 /* Frameworks */,
+				7B2C3CFC264DBB710086BAC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWS_IOS_air;
+			productName = AWS_IOS_air;
+			productReference = 7B2C3CFE264DBB710086BAC8 /* AWS_IOS_air.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B2C3CF6264DBB710086BAC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = alpine;
+				TargetAttributes = {
+					7B2C3CFD264DBB710086BAC8 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 7B2C3CF9264DBB710086BAC8 /* Build configuration list for PBXProject "AWS_IOS_air" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B2C3CF5264DBB710086BAC8;
+			productRefGroup = 7B2C3CFF264DBB710086BAC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B2C3CFD264DBB710086BAC8 /* AWS_IOS_air */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B2C3CFC264DBB710086BAC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2C3D11264DBB750086BAC8 /* LaunchScreen.storyboard in Resources */,
+				7B2C3D0E264DBB750086BAC8 /* Preview Assets.xcassets in Resources */,
+				7B2C3D0B264DBB750086BAC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B2C3CFA264DBB710086BAC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2C3D02264DBB710086BAC8 /* AppDelegate.swift in Sources */,
+				7B2C3D07264DBB710086BAC8 /* AWS_IOS_air.xcdatamodeld in Sources */,
+				7B2C3D09264DBB710086BAC8 /* ContentView.swift in Sources */,
+				7B2C3D04264DBB710086BAC8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B2C3D0F264DBB750086BAC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B2C3D10264DBB750086BAC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B2C3D13264DBB750086BAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B2C3D14264DBB750086BAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B2C3D16264DBB750086BAC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AWS_IOS_air/Preview Content\"";
+				DEVELOPMENT_TEAM = X4Q9MUR658;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AWS_IOS_air/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alpinetest.AWS-IOS-air";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B2C3D17264DBB750086BAC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AWS_IOS_air/Preview Content\"";
+				DEVELOPMENT_TEAM = X4Q9MUR658;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AWS_IOS_air/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alpinetest.AWS-IOS-air";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B2C3CF9264DBB710086BAC8 /* Build configuration list for PBXProject "AWS_IOS_air" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B2C3D13264DBB750086BAC8 /* Debug */,
+				7B2C3D14264DBB750086BAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B2C3D15264DBB750086BAC8 /* Build configuration list for PBXNativeTarget "AWS_IOS_air" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B2C3D16264DBB750086BAC8 /* Debug */,
+				7B2C3D17264DBB750086BAC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7B2C3D05264DBB710086BAC8 /* AWS_IOS_air.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7B2C3D06264DBB710086BAC8 /* AWS_IOS_air.xcdatamodel */,
+			);
+			currentVersion = 7B2C3D06264DBB710086BAC8 /* AWS_IOS_air.xcdatamodel */;
+			path = AWS_IOS_air.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7B2C3CF6264DBB710086BAC8 /* Project object */;
+}
