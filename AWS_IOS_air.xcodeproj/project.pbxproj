@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171EBC420B04F3363D815D07 /* Pods_AWS_IOS_air.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A002E44E7C7531A751C5EA /* Pods_AWS_IOS_air.framework */; };
 		7B2C3D02264DBB710086BAC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C3D01264DBB710086BAC8 /* AppDelegate.swift */; };
 		7B2C3D04264DBB710086BAC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C3D03264DBB710086BAC8 /* SceneDelegate.swift */; };
 		7B2C3D07264DBB710086BAC8 /* AWS_IOS_air.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C3D05264DBB710086BAC8 /* AWS_IOS_air.xcdatamodeld */; };
@@ -14,9 +15,13 @@
 		7B2C3D0B264DBB750086BAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C3D0A264DBB750086BAC8 /* Assets.xcassets */; };
 		7B2C3D0E264DBB750086BAC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C3D0D264DBB750086BAC8 /* Preview Assets.xcassets */; };
 		7B2C3D11264DBB750086BAC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C3D0F264DBB750086BAC8 /* LaunchScreen.storyboard */; };
+		7B2C3D19264DC4E80086BAC8 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C3D18264DC4E80086BAC8 /* amplifyconfiguration.json */; };
+		7B2C3D1B264DC4F10086BAC8 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B2C3D1A264DC4F10086BAC8 /* awsconfiguration.json */; };
+		7B2C3D1D264DC5330086BAC8 /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2C3D1C264DC5330086BAC8 /* Backend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58182C60AC232BEF3EB95D05 /* Pods-AWS_IOS_air.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWS_IOS_air.debug.xcconfig"; path = "Target Support Files/Pods-AWS_IOS_air/Pods-AWS_IOS_air.debug.xcconfig"; sourceTree = "<group>"; };
 		7B2C3CFE264DBB710086BAC8 /* AWS_IOS_air.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWS_IOS_air.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B2C3D01264DBB710086BAC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B2C3D03264DBB710086BAC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,11 @@
 		7B2C3D0D264DBB750086BAC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B2C3D10264DBB750086BAC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B2C3D12264DBB750086BAC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B2C3D18264DC4E80086BAC8 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = amplifyconfiguration.json; path = ../amplifyconfiguration.json; sourceTree = "<group>"; };
+		7B2C3D1A264DC4F10086BAC8 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awsconfiguration.json; path = ../awsconfiguration.json; sourceTree = "<group>"; };
+		7B2C3D1C264DC5330086BAC8 /* Backend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+		A0A002E44E7C7531A751C5EA /* Pods_AWS_IOS_air.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWS_IOS_air.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FFBAEC59F2CE83D53DDF8F /* Pods-AWS_IOS_air.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWS_IOS_air.release.xcconfig"; path = "Target Support Files/Pods-AWS_IOS_air/Pods-AWS_IOS_air.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				171EBC420B04F3363D815D07 /* Pods_AWS_IOS_air.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +53,12 @@
 		7B2C3CF5264DBB710086BAC8 = {
 			isa = PBXGroup;
 			children = (
+				7B2C3D1A264DC4F10086BAC8 /* awsconfiguration.json */,
+				7B2C3D18264DC4E80086BAC8 /* amplifyconfiguration.json */,
 				7B2C3D00264DBB710086BAC8 /* AWS_IOS_air */,
 				7B2C3CFF264DBB710086BAC8 /* Products */,
+				E394F766C68DF50647D6107A /* Pods */,
+				C50781584E833C58706C0C6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +76,7 @@
 				7B2C3D01264DBB710086BAC8 /* AppDelegate.swift */,
 				7B2C3D03264DBB710086BAC8 /* SceneDelegate.swift */,
 				7B2C3D08264DBB710086BAC8 /* ContentView.swift */,
+				7B2C3D1C264DC5330086BAC8 /* Backend.swift */,
 				7B2C3D0A264DBB750086BAC8 /* Assets.xcassets */,
 				7B2C3D0F264DBB750086BAC8 /* LaunchScreen.storyboard */,
 				7B2C3D12264DBB750086BAC8 /* Info.plist */,
@@ -78,6 +94,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C50781584E833C58706C0C6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0A002E44E7C7531A751C5EA /* Pods_AWS_IOS_air.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E394F766C68DF50647D6107A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58182C60AC232BEF3EB95D05 /* Pods-AWS_IOS_air.debug.xcconfig */,
+				F6FFBAEC59F2CE83D53DDF8F /* Pods-AWS_IOS_air.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B2C3D15264DBB750086BAC8 /* Build configuration list for PBXNativeTarget "AWS_IOS_air" */;
 			buildPhases = (
+				252124F1985CC594530B22C4 /* [CP] Check Pods Manifest.lock */,
 				7B2C3CFA264DBB710086BAC8 /* Sources */,
 				7B2C3CFB264DBB710086BAC8 /* Frameworks */,
 				7B2C3CFC264DBB710086BAC8 /* Resources */,
+				FE924F1EC410EC8DC16D5162 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,13 +171,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2C3D1B264DC4F10086BAC8 /* awsconfiguration.json in Resources */,
 				7B2C3D11264DBB750086BAC8 /* LaunchScreen.storyboard in Resources */,
 				7B2C3D0E264DBB750086BAC8 /* Preview Assets.xcassets in Resources */,
 				7B2C3D0B264DBB750086BAC8 /* Assets.xcassets in Resources */,
+				7B2C3D19264DC4E80086BAC8 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		252124F1985CC594530B22C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWS_IOS_air-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE924F1EC410EC8DC16D5162 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AWS_IOS_air/Pods-AWS_IOS_air-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AWS_IOS_air/Pods-AWS_IOS_air-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AWS_IOS_air/Pods-AWS_IOS_air-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B2C3CFA264DBB710086BAC8 /* Sources */ = {
@@ -153,6 +232,7 @@
 				7B2C3D07264DBB710086BAC8 /* AWS_IOS_air.xcdatamodeld in Sources */,
 				7B2C3D09264DBB710086BAC8 /* ContentView.swift in Sources */,
 				7B2C3D04264DBB710086BAC8 /* SceneDelegate.swift in Sources */,
+				7B2C3D1D264DC5330086BAC8 /* Backend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +366,7 @@
 		};
 		7B2C3D16264DBB750086BAC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58182C60AC232BEF3EB95D05 /* Pods-AWS_IOS_air.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -306,6 +387,7 @@
 		};
 		7B2C3D17264DBB750086BAC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FFBAEC59F2CE83D53DDF8F /* Pods-AWS_IOS_air.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
